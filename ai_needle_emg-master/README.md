@@ -1,4 +1,4 @@
-Notes from Chi Him
+----------------------------------------------Notes from Chi Him----------------------------------------------
 # Project
 This project uses parts of previous project, where an algoritm is trained with hard labels. This one uses soft-labels. Soft-labels are created with te script in test_annotation/preprocessing/.py. There are to scripts used for training the models. The first, which only looks at the amount of reviewers can be found in test_annotation/Stage.correct.py. The other can be found in test_annotation/Stage.correct.smooth_shuffle.py. To be able to train a model, the other patient files will have to be uploaded locally. Parameters, paths etc. can be changed in the files for training the models. To train a model according to Deborah's method, you must read the notes in the following paragraph.
 
@@ -6,7 +6,7 @@ This project uses parts of previous project, where an algoritm is trained with h
 - Data uses a lot of memory, consider this before training a model.
 - Preprocessing can be implemented in a single file, like Deborah did. However, I did not do this, simply becuase of a shortage of memory.
 
-Notes from Deborah
+----------------------------------------------Notes from Deborah----------------------------------------------
 # AMC EMG Classification 
 
 This is the README for the AMC EMG Classification repository. 
